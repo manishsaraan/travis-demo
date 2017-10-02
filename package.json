@@ -1,0 +1,12 @@
+{
+  "name": "learn-travis-ManishSaraan",
+  "description": "Simple Travis-CI check for JSHint (Code Linting)",
+  "author": "manish saraan",
+  "version": "0.0.1",
+  "devDependencies": {
+    "jshint": "^2.9.5"
+  },
+  "scripts": {
+    "test": "./node_modules/jshint/bin/jshint hello.js"
+  }
+}
